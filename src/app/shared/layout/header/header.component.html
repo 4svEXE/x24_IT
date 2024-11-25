@@ -1,0 +1,32 @@
+<header class="bg-white dark:bg-gray-800 shadow p-4 relative">
+  <div class="container mx-auto flex justify-between items-center">
+    <!-- Logo -->
+    <div class="dark:text-white text-black text-xl font-semibold">
+      <a [routerLink]="['/']">x24 IT</a>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="hidden md:flex space-x-6 items-center">
+      <app-navigation />
+      <app-theme-switcher/>
+    </nav>
+
+    <!-- Burger Icon for Mobile/Tablet -->
+    <div class="md:hidden" (click)="toggleMobileMenu()">
+      <button id="burger" class="dark:text-white text-black">
+        <div [innerHTML]="svg['mobile-menu']"></div>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- Mobile Navigation -->
+<div
+  class="mobile-menu-container bg-white dark:bg-black  md:hidden p-4"
+  [class.active]="isMobileMenuOpen"
+  (click)="toggleMobileMenu()"
+>
+  <app-navigation navClass="flex-col" />
+
+  <app-theme-switcher/>
+</div>

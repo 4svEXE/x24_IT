@@ -1,0 +1,9 @@
+<div class="app-container" [ngClass]="themeService.darkModeSignal()">
+  <app-header></app-header>
+
+  <div class="container m-auto">
+    <router-outlet></router-outlet>
+  </div>
+
+  <app-footer></app-footer>
+</div>

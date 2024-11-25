@@ -1,0 +1,11 @@
+identifier: mc34r9k3q8a3kf83
+appPort: 1864
+staticPort: 1668
+reloadPort: 2667
+hostName: localhost
+projectName: x24_IT
+homeFolder: C:\Users\4sv\Desktop\x24_IT
+distFolder: ./dist/x24_IT/browser
+outDir: C:\Users\4sv\Desktop\x24_IT\dist\static
+handle404: ''
+allowErrorCollect: true

@@ -1,0 +1,27 @@
+.nav-button {
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 1px;
+    background-color: currentColor;
+    transition:  .2s width;
+
+  }
+
+  &:hover {
+    &::after {
+      width: 100%;
+    }
+  }
+
+  &.active {
+    &::after {
+      width: 100%;
+    }
+  }
+}
