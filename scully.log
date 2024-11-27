@@ -136,3 +136,32 @@ handleUnknownRoute: "/x24_IT/polyfills-FFHMD2TL.js", 404:""handleUnknownRoute: "
 handleUnknownRoute: "/x24_IT/polyfills-FFHMD2TL.js", 404:""handleUnknownRoute: "/x24_IT/main-XMBULNXR.js", 404:""handleUnknownRoute: "/x24_IT/styles-GURRM3NC.css", 404:""
 
 
+NOTICE:
+****************************************************************************************
+  This is a development tool for Scully applications.
+  You can ignore the warning (TLS) or run scully with --no-warning
+****************************************************************************************
+Could not fetch data for route "/blog/:id"
+handleUnknownRoute: "/x24_IT/polyfills-FFHMD2TL.js", 404:""handleUnknownRoute: "/x24_IT/main-74FBERLH.js", 404:""handleUnknownRoute: "/x24_IT/styles-43QOBYAO.css", 404:""
+
+
+handleUnknownRoute: "/x24_IT/polyfills-FFHMD2TL.js", 404:""handleUnknownRoute: "/x24_IT/main-74FBERLH.js", 404:""handleUnknownRoute: "/x24_IT/styles-43QOBYAO.css", 404:""handleUnknownRoute: "/x24_IT/polyfills-FFHMD2TL.js", 404:""
+handleUnknownRoute: "/x24_IT/main-74FBERLH.js", 404:""handleUnknownRoute: "/x24_IT/styles-43QOBYAO.css", 404:""
+
+
+handleUnknownRoute: "/x24_IT/polyfills-FFHMD2TL.js", 404:""handleUnknownRoute: "/x24_IT/main-74FBERLH.js", 404:""
+
+handleUnknownRoute: "/x24_IT/styles-43QOBYAO.css", 404:""
+
+
+handleUnknownRoute: "/x24_IT/polyfills-FFHMD2TL.js", 404:""handleUnknownRoute: "/x24_IT/main-74FBERLH.js", 404:""handleUnknownRoute: "/x24_IT/styles-43QOBYAO.css", 404:""
+handleUnknownRoute: "/x24_IT/polyfills-FFHMD2TL.js", 404:""
+handleUnknownRoute: "/x24_IT/main-74FBERLH.js", 404:""
+handleUnknownRoute: "/x24_IT/styles-43QOBYAO.css", 404:""
+handleUnknownRoute: "/x24_IT/polyfills-FFHMD2TL.js", 404:""
+handleUnknownRoute: "/x24_IT/main-74FBERLH.js", 404:""
+handleUnknownRoute: "/x24_IT/styles-43QOBYAO.css", 404:""
+
+
+Error during file write
+Error: ENOENT: no such file or directory, mkdir 'C:\Users\4sv\Desktop\x24_IT\dist\static\blog\:id'

@@ -8,16 +8,20 @@ import { AboutComponent } from './about/about.component';
 import { FaqComponent } from './faq/faq.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { ServicesComponent } from './services/services.component';
+import { BlogComponent } from './blog/blog.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
     AboutComponent,
     FaqComponent,
     ContactsComponent,
-    ServicesComponent
+    ServicesComponent,
+    BlogComponent
   ],
   imports: [
     CommonModule,
+    RouterModule,
     // PagesRoutingModule,
     HomeModule
   ]

@@ -23,7 +23,8 @@ export class GitHubService {
   uploadFile(
     filePath: string,
     fileContent: string,
-    commitMessage: string
+    commitMessage: string,
+    sha: string // Параметр для sha
   ): Observable<any> {
     const url = `${this.apiUrl}${filePath}`;
     const headers = new HttpHeaders({
@@ -32,7 +33,8 @@ export class GitHubService {
     });
     const body = {
       message: commitMessage,
-      content: this.encodeToBase64(fileContent),
+      content: fileContent,
+      sha: sha, // Додати SHA
     };
 
     return this.http.put(url, body, { headers });

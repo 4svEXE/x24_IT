@@ -1,0 +1,13 @@
+<section class="blog">
+  <div class="container wrapper">
+    <div *ngIf="blogPost; else notFound">
+      <h1>{{ blogPost.title }}</h1>
+      <p>{{ blogPost.content }}</p>
+      <p><strong>Автор:</strong> {{ blogPost.author }}</p>
+      <p><strong>Дата:</strong> {{ blogPost.date }}</p>
+    </div>
+    <ng-template #notFound>
+      <p>Блог не знайдено.</p>
+    </ng-template>
+  </div>
+</section>
