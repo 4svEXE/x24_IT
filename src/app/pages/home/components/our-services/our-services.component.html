@@ -1,0 +1,17 @@
+<section class="our-services">
+  <div class="container wrapper">
+    <h2>Наші <span>послуги</span></h2>
+  
+    <owl-carousel-o [options]="customOptions">
+      <ng-template carouselSlide *ngFor="let service of services">
+        <app-service-card
+          [title]="service.title"
+          [price]="service.price"
+          [description]="service.description"
+          [features]="service.features"
+        ></app-service-card>
+      </ng-template>
+    </owl-carousel-o>
+  </div>
+  
+</section>

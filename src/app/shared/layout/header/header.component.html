@@ -2,7 +2,9 @@
   <div class="container mx-auto flex justify-between items-center">
     <!-- Logo -->
     <div class="dark:text-white text-black text-xl font-semibold">
-      <a [routerLink]="['/']">x24 IT</a>
+      <a [routerLink]="['/']">
+        <div class="logo dark:invert" [innerHTML]="svg['logo']"></div>
+      </a>
     </div>
 
     <!-- Navigation -->

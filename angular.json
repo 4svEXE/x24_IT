@@ -50,12 +50,14 @@
                   "maximumError": "4kB"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "baseHref": "/x24_IT/" // Додаємо baseHref для production
             },
             "development": {
               "optimization": false,
               "extractLicenses": false,
-              "sourceMap": true
+              "sourceMap": true,
+              "baseHref": "/" // Для development залишаємо кореневий шлях
             }
           },
           "defaultConfiguration": "production"

@@ -1,0 +1,34 @@
+.hiro {
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  position: relative;
+
+  .info-box {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    filter: drop-shadow(0px 0px 1px black);
+    filter: blur(1);
+
+    .info {
+      min-width: 90%;
+      max-width: 620px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 12px;
+      
+      h1, p {
+        text-align: center;
+      }
+    }
+  }
+}

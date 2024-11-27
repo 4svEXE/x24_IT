@@ -13,28 +13,16 @@ export class CarouselComponent {
     touchDrag: true,
     pullDrag: true,
     nav: false,
-    dots: true,
-    navSpeed: 3000,
+    dots: false,
+    navSpeed: 700,
     navText: ['', ''],
     autoplay: true,
+    autoplaySpeed: 10000,
+    autoplayTimeout: 10000,
     responsive: {
       0: {
         items: 1,
       },
     },
-    // responsive: {
-    //   0: {
-    //     items: 1
-    //   },
-    //   400: {
-    //     items: 2
-    //   },
-    //   740: {
-    //     items: 3
-    //   },
-    //   940: {
-    //     items: 4
-    //   }
-    // },
   };
 }
