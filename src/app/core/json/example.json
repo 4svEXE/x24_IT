@@ -11,17 +11,5 @@
       "Frontend"
     ],
     "image": "https://example.com/images/angular-17.jpg"
-  },
-  {
-    "id": 1733331182166,
-    "title": "Новий пост",
-    "author": "Ivan Bro",
-    "date": "2024-12-04T16:53:02.166Z",
-    "content": "Це новий пост.",
-    "tags": [
-      "Новий",
-      "Пост"
-    ],
-    "image": "https://example.com/new-post.jpg"
   }
 ]
