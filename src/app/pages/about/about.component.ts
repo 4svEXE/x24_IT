@@ -76,35 +76,35 @@ export class AboutComponent implements OnInit {
   }
 }
 
-const jsonTest = [
-  {
-    id: 1,
-    title: 'Understanding Angular 17232131',
-    author: 'Ivan Bro',
-    date: '2024-11-01',
-    content:
-      'Angular 17 brings new features and optimizations that make it a top choice for web developers. In this post, we explore the key updates and how to leverage them.',
-    tags: ['Angular', 'Web Development', 'Frontend'],
-    image: 'https://example.com/images/angular-17.jpg',
-  },
-  {
-    id: 2,
-    title: 'Understanding Angular 32123117',
-    author: 'Ivan Bro',
-    date: '2024-11-01',
-    content:
-      'Angular 17 brings new features and optimizations that make it a top choice for web developers. In this post, we explore the key updates and how to leverage them.',
-    tags: ['Angular', 'Web Development', 'Frontend'],
-    image: 'https://example.com/images/angular-17.jpg',
-  },
-  {
-    id: 3,
-    title: 'Understanding Angular4444 17',
-    author: 'Ivan Bro',
-    date: '2024-11-01',
-    content:
-      'Angular 17 brings new features and optimizations that make it a top choice for web developers. In this post, we explore the key updates and how to leverage them.',
-    tags: ['Angular', 'Web Development', 'Frontend'],
-    image: 'https://example.com/images/angular-17.jpg',
-  },
-];
+const jsonTest = []//[
+//   {
+//     id: 1,
+//     title: 'Understanding Angular 17232131',
+//     author: 'Ivan Bro',
+//     date: '2024-11-01',
+//     content:
+//       'Angular 17 brings new features and optimizations that make it a top choice for web developers. In this post, we explore the key updates and how to leverage them.',
+//     tags: ['Angular', 'Web Development', 'Frontend'],
+//     image: 'https://example.com/images/angular-17.jpg',
+//   },
+//   {
+//     id: 2,
+//     title: 'Understanding Angular 32123117',
+//     author: 'Ivan Bro',
+//     date: '2024-11-01',
+//     content:
+//       'Angular 17 brings new features and optimizations that make it a top choice for web developers. In this post, we explore the key updates and how to leverage them.',
+//     tags: ['Angular', 'Web Development', 'Frontend'],
+//     image: 'https://example.com/images/angular-17.jpg',
+//   },
+//   {
+//     id: 3,
+//     title: 'Understanding Angular4444 17',
+//     author: 'Ivan Bro',
+//     date: '2024-11-01',
+//     content:
+//       'Angular 17 brings new features and optimizations that make it a top choice for web developers. In this post, we explore the key updates and how to leverage them.',
+//     tags: ['Angular', 'Web Development', 'Frontend'],
+//     image: 'https://example.com/images/angular-17.jpg',
+//   },
+// ];

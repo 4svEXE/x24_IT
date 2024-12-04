@@ -9,7 +9,7 @@
     "watch": "ng build --watch --configuration development",
     "seo:build": "ng build --configuration production && npx scully --scanRoutes --project x24_IT",
     "seo:serve": "npm run seo:build && npx scully serve --project x24_IT",
-    "deploy": "npx angular-cli-ghpages --dir=dist/static",
+    "deploy": "npx angular-cli-ghpages --dir=dist/expense-tracker-application",
     "test": "ng test"
   },
   "private": true,
