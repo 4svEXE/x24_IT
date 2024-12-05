@@ -44,3 +44,23 @@ section {
   }
 }
 
+.box{
+  width: 100%;
+  padding: 12px;
+  margin: 4px;
+  border-radius: 6px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  font-size: 14px;
+}
+
+button{
+  border: 1px solid #e1e1e1;
+  padding: 10px;
+  border-radius: 6px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  cursor: pointer;
+}
