@@ -1,17 +1,5 @@
 [
   {
-    "id": 1733332035931,
-    "title": "Новий пост",
-    "author": "Ivan Bro",
-    "date": "2024-12-04T17:07:15.931Z",
-    "content": "Це новий пост.",
-    "tags": [
-      "Новий",
-      "Пост"
-    ],
-    "image": "https://example.com/new-post.jpg"
-  },
-  {
     "title": "Новий пост",
     "author": "Ivan Bro",
     "date": "2024-12-05T18:02:17.277Z",
