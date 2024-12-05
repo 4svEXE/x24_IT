@@ -23,5 +23,17 @@
       "Пост"
     ],
     "image": "https://example.com/new-post.jpg"
+  },
+  {
+    "title": "Новий пост",
+    "author": "Ivan Bro",
+    "date": "2024-12-05T18:02:17.277Z",
+    "content": "Це новий пост.",
+    "tags": [
+      "Новий",
+      "Пост"
+    ],
+    "image": "https://example.com/new-post.jpg",
+    "id": "post_y3ot0zs6wz1733421737277"
   }
 ]
